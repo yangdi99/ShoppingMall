@@ -1,0 +1,85 @@
+.catagary{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.catagary .header1{
+    width: 100%;
+    height: .9rem;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: absolute;
+    // top:0;
+    // left:0;
+    // z-index: 99999;
+    flex-direction: cloumn;
+    border-bottom: 1px solid #ccc;
+}
+.catagary .header1 .input{
+    width: 85%;
+    position: relative;
+}
+.catagary .header1 .input input{
+    width: 100%;
+    height: .7rem;
+    background: #F5F5F5;
+    padding-left: .5rem;
+    border-radius: .1rem;
+    border-width: 0;
+}
+.catagary .header1 .input .iconfont{
+    position: absolute;
+    top: .13rem;
+    left: .2rem;
+    color: #A5A5A5;
+}
+.catagary-wrap{
+    width: 100%;
+    height: auto;
+    font-size: .26rem;
+    // margin-top: .9rem;
+    // flex:1;
+    // overflow-y: scroll;
+    display: flex;
+    justify-content: space-between;
+}
+.catagary-wrap .left-side{
+    width: 30%;
+    height: auto;
+    color: #333333;
+    background:#F0ECED;
+}
+.catagary-wrap .left-side ul li{
+    height: .7rem;
+    text-align: center;
+    line-height: .7rem;
+    border-left: 2px solid #F0ECED;
+}
+.catagary-wrap .left-side ul li.actagory-active{
+    background:#fff;
+    color: #fc4141;
+    border-left: 2px solid #fc4141;
+}
+.catagary-wrap .right-side{
+    width: 80%;
+    height: auto;
+    color: #909090;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catagary-wrap .right-side dl{
+    width: 22%;
+    height: auto;
+}
+.catagary-wrap .right-side dl dt{
+    height: 1.2rem;
+}
+.catagary-wrap .right-side dl dt img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+}

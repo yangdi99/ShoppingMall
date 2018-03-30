@@ -1,0 +1,61 @@
+.login{
+    width: 100%;
+    height: auto;
+}
+.login .headers{
+    width: 100%;
+    height: .9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFB;
+}
+.login .headers .back{
+    padding-left: .3rem;
+}
+.login .headers .logs{
+    font-size: .3rem;
+}
+.login .headers .regis{
+    padding-right: .2rem;
+    font-size: .2rem;
+    color: #FB6F70;
+}
+.login .logins{
+    width: 100%;
+    height: auto;
+    margin-top: .1rem;
+    background: #fff;
+}
+.login .logins p{
+    height: 1rem;
+    padding-left: .3rem;
+    display: flex;
+    align-items: center;
+}
+.login .logins .iconfont{
+    font-size: .4rem;
+}
+.login .logins input{
+    width: 80%;
+    height: 100%;
+    border-width: 0;
+    margin-left: .2rem;
+    border-bottom:1px solid #E5E5E5;
+}
+.login .ascertain{
+    margin-top: .9rem;
+    width: 80%;
+    height: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login .ascertain button{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-width: 0;
+    font-size: .3rem; 
+    border-radius: 2rem;   
+    background: #FC4141;
+}

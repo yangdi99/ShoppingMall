@@ -1,0 +1,22 @@
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  background: #fff;
+}
+.footer li span{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: .26rem;
+}
+.footer li span.iconfont{
+  font-size: .4rem;
+}
+.tab-active{
+  color: #fc4141;
+}
+.test{
+  z-index: 999999;
+}
